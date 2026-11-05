@@ -1,0 +1,4 @@
+alias	host	user	port	key	note
+example-win	192.0.2.10	Administrator	22	~/.ssh/id_ed25519_example-win	替换为真实地址
+example-linux	192.0.2.11	deploy	22	~/.ssh/id_ed25519_example-linux	替换为真实地址
+example-jump	192.0.2.12	ops	22	~/.ssh/id_ed25519_example-jump	跳板机

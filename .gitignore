@@ -1,0 +1,30 @@
+# 本地配置与凭据（永不入库）
+config.local.*
+*.local.ps1
+*.local.sh
+
+# 待部署公钥（可按需分发，但不进公开仓库）
+keys/*.pub
+keys/*.key
+!keys/.gitkeep
+
+# 离线安装包（体积大，单独分发）
+windows/offline/*.msi
+windows/offline/*.exe
+windows/offline/*.zip
+
+# 运行产物
+*.log
+msi.log
+安装日志.txt
+部署结果.txt
+部署失败.txt
+sshd-config-check.err
+*.zip
+release/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
